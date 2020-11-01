@@ -1,0 +1,50 @@
+*{
+    font-family: "Lato";
+}
+.bgCustom{
+    background-color: #1A1A1A !important;
+}
+.ogCustom{
+    color: #FF7F00 !important;
+}
+
+
+.iconeAd{
+    max-height: 150px;
+}
+
+.bgFumee{
+    background-color: rgba(216, 216, 216, 50);
+}
+.bgZero{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.custom-logo{
+    max-height: 100px;
+}
+
+.jumbo{
+    background-image: url('../images/bg-jumbo.png');
+    
+}
+.bgAbout{
+    background-image: url('../images/bg-about.png');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    
+}
+@media only screen and (max-width: 768px) {
+    .bgAbout {background: #1A1A1A !important;}
+    .bgContact{background: #1A1A1A !important;}
+  } 
+.bgContact{
+    background-image: url('../images/bg-contact.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    
+}
+
+.customCardAd{
+    background-color: rgba(255, 255, 255, .67);
+}
